@@ -1,0 +1,24 @@
+#include<stdio.h>
+void main()
+{
+int i,j,x[20];
+int k=0;
+int a=0;
+printf("ENTER NO.OF ELEMENTS YOU WANT TO ENTER");
+scanf("%d",&j);
+for(i=0;i<j;i++)
+ {
+ printf("ENTER NO.");
+ scanf("%d",&x[i]);
+ if(x[i]%2==0)
+  {
+  k = k+x[i];
+  }
+ else
+  {
+  a = a+x[i];
+  }
+ }
+printf("SUM OF EVEN NO. IS %d",k);
+printf("SUM OF ODD NO. IS %d",k);
+}
